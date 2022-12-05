@@ -1,0 +1,57 @@
+.banner_main{
+    background-image: url(../images/banner.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slider_section {
+    min-height: inherit;
+}
+.main_text h1 {
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 185px;
+    padding: 0;
+}
+.bold_text {
+    font-size: 150px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #eb622c;
+}
+.bold_text_black {
+    font-size: 150px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.main_text span {
+    font-size: 23px;
+    line-height: 24px;
+    color: #050000;
+    display: block;
+    margin-top: -10px;
+}
+
+.main_text a {
+    display: block;
+    background: transparent;
+    color: #050000;
+    max-width: 218px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+    border: #000 solid 1px;
+    margin-top: 50px;
+}
+
+.main_text i {
+    padding-left: 10px;
+}
+
+.main_text a:hover {
+    color: #fff;
+    background: #050000
+}

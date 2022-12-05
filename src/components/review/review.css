@@ -1,0 +1,32 @@
+.Reviwe .title h2 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #ff8c00;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+.Reviwe .Reviwe_box {
+    border-radius: 20px;
+    text-align: center;
+}
+
+.Reviwe .Reviwe_box h3 {
+    color: #ff8c00;
+    font-size: 30px;
+    line-height: 28px;
+    padding: 25px 0px;
+    padding-top: 32px;
+}
+
+.Reviwe .Reviwe_box p {
+    color: #000;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.Reviwe .Reviwe_box i {
+    display: inline-block;
+}

@@ -1,0 +1,80 @@
+.black {
+    color: #000;
+    font-weight: 500;
+}
+
+.contact {
+    margin-top: 90px;
+}
+
+.contact .title {
+    padding-bottom: 147px !important;
+    text-align: left;
+}
+
+.contact .title h2 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #ff8c00;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+    min-height: 480px;
+}
+
+.padddd {
+    padding: 0px;
+}
+
+.main_form {
+    position: absolute;
+    z-index: 990;
+    background: #ff8c00;
+    margin-top: -94px;
+    padding: 60px 100px;
+}
+
+.form-control {
+    border: #fff solid 2px;
+    border-radius: inherit;
+    margin-bottom: 20px;
+    padding: 8px 20px;
+    font-family: poppins;
+}
+
+.form-control:focus {
+    box-shadow: inherit;
+    border: #fff solid 2px !important;
+}
+
+.textarea {
+    font-family: poppins;
+    border: #fff solid 2px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    padding-top: 0px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.send {
+    font-family: poppins;
+    float: left;
+    margin: 0 auto;
+    display: block;
+    background: #fff;
+    color: #000;
+    max-width: 165px;
+    padding: 13px 0px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.send:hover {
+    background: #000;
+    color: #fff;
+}
