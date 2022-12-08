@@ -1,22 +1,15 @@
-import Nav from "./components/nav/Nav";
-import Banner from "./components/banner/Banner";
-import Abou from "./components/about/Abou";
-import Training from "./components/training/training";
-import Galery from "./components/Galery/Galery";
-import Review from "./components/review/Review";
-import Contact from "./components/contact/Contact";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/pages/Home";
+
 
 function App() {
   return (
-      <div>
-        <Nav/>
-      < Banner/>
-      <Abou/>
-      <Training/>
-      <Galery />
-      <Review />
-      <Contact />
-      </div>
+      <BrowserRouter>
+      <Routes>
+      <Route path="/" element={<Home />}/>
+      
+      </Routes>
+      </BrowserRouter>
   );
 }
 

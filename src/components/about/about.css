@@ -31,7 +31,9 @@
     line-height: 30px;
     padding-top: 10px;
 }
-
+.reded{
+    color: #ffb300;
+}
 .about_text_box {
     padding-top: 130px;
     text-align: end;

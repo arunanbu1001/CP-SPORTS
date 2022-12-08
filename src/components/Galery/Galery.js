@@ -8,7 +8,7 @@ import gallery5 from "../images/gallery5.jpg"
 import gallery6 from "../images/gallery6.jpg"
 const Galery = () => {
   return (
-    <div id="gallery" class="Gallery">
+    <div id="gallery" class="Gallery mb-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">

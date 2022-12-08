@@ -2,14 +2,13 @@
     background-image: url(../images/banner.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-}
-.slider_section {
     min-height: inherit;
 }
 .main_text h1 {
     font-weight: normal;
     font-size: 90px;
     line-height: 185px;
+    margin-top: 50px;
     padding: 0;
 }
 .bold_text {

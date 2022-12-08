@@ -16,7 +16,7 @@ const Abou = () => {
                             <div class="about_text">
                                 <div class="about_text_box">
                                     <h2>About<strong class="black_white"> cp sports</strong></h2>
-                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and w</p>
+                                    <p><strong class="reded">Since 2018</strong>,We took our first step at CP SPORTS ACADEMY as a cricket,Football academy in 2018.Now we have ATHLETIC ACADMEY at NEHRU STADIUM "A" GROUND. We organaized many sports competions among school level. TNCP aim is to make competitive sports environment among school students to build good citizens through the competitions</p>
                                 </div>
                             </div>
                         </div>
