@@ -1,3 +1,13 @@
 .bgcl{
     background-color: rgb(10, 20, 62);
+    height: 60%;
+}
+.bgcl h3{
+    font-size: 36px;
+    color:rgb(245, 245, 158);
+    padding: 20px 20px;
+    text-align: center;
+}
+.uniq p{
+    font-size: 20px;
 }

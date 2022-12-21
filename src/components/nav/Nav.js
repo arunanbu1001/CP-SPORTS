@@ -14,21 +14,21 @@ const Nav = () => {
   };
   return (
     <header>
-			<h3>LOGO</h3>
-			<nav ref={navRef}>
-				<a href="/#">Home</a>
-				<a href="/#">My work</a>
-				<a href="/#">Blog</a>
-				<a href="/#">About me</a>
-				<button
-					className="nav-btn nav-close-btn"
-					onClick={showNavbar}>
-					<CiFacebook />
-				</button>
+			<div className='container row'>
+      <div className='col-3'>
+      <h3>LOGO</h3>
+      </div>
+			<div className='col-9 nav-con'>
+      <nav ref={navRef}>
+				<a href="/#" className='nav-colr'>Home</a>
+				<a href="/gallery" className='nav-colr'>Gallery</a>
+				<a href="/organiz" className='nav-colr'>Organizer</a>
+				<a href="/#" className='nav-colr'>About me</a>
 			</nav>
-			<button className="nav-btn" onClick={showNavbar}>
-				<CiInstagram />
-			</button>
+			<a href="/login" className='nav-colr'>LOGIN</a>
+							
+      </div>
+      </div>
 		</header>
   //   <header>
   //     <div class="container text-center">

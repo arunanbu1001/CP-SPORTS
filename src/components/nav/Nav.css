@@ -114,3 +114,10 @@ header i{
     width: 40px;
     padding: 7px;
 }
+.nav-con{
+	display: flex;
+	justify-content: end;
+}
+.nav-colr{
+	color: #ff8c00;
+}
