@@ -4,7 +4,7 @@ import Galery from "./components/Galery/Galery";
 import Home from "./components/pages/Home";
 import Organizer from "./components/pages/Organizer";
 
-
+ 
 function App() {
   return (
       <BrowserRouter>

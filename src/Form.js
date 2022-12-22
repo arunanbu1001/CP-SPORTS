@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import axios from 'axios';
-import './Style.css';
+// import './Style.css';
 
 const Form = () => {
     const [name,setName] = useState('');
@@ -26,9 +26,9 @@ const Form = () => {
         fData.append('email', email);
         console.log(fData);
         axios.post(url, fData)
+        // console.log(url)
         .then(response=> alert(response.data ))
         .catch(error=> alert(error));
-        // console.log(fData.value)
        
       }
       
